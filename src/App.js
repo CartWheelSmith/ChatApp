@@ -51,10 +51,10 @@ function SignIn() {
   }
 
   return (
-    <>
+    <div className='SigninDiv'>
       <button className="sign-in" onClick={signInWithGoogle}>Sign in with Google</button>
-      <p>Do not violate the community guidelines or you will be banned for life!</p>
-    </>
+      <p>This chat app is a demo. It was made to help me understand on how to use firebase with a REACT app.</p>
+    </div>
   )
 
 }
